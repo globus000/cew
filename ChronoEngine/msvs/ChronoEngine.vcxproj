@@ -1,0 +1,999 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{D7297CE5-2CF3-4609-99C7-CC1D1D5201E5}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ChronoEngine</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">c:\Projects\Test\ChronoSrc\bin\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ChronoEngine.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ChronoEngine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">c:\Projects\Test\ChronoSrc\bin\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ChronoEngine.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ChronoEngine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">c:\Projects\Test\ChronoSrc\bin\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ChronoEngine.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ChronoEngine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">c:\Projects\Test\ChronoSrc\bin\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ChronoEngine.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ChronoEngine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Projects\Test\ChronoSrc\src;c:\Projects\Test\ChronoSrc\bin;C:\Projects\Test\ChronoSrc\src\collision\bullet;C:\Projects\Test\ChronoSrc\src\collision\gimpact;C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>WIN64;_WIN64;_WINDOWS;NOMINMAX;_DEBUG;DEBUG;CH_API_COMPILE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;BP_USE_FIXEDPOINT_INT_32;CMAKE_INTDIR="Debug";ChronoEngine_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN64%3B;_WIN64%3B;NOMINMAX%3B;_DEBUG;DEBUG;WIN64%3B;_WIN64%3B;NOMINMAX%3B;CH_API_COMPILE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;BP_USE_FIXEDPOINT_INT_32;CMAKE_INTDIR=\"Debug\";ChronoEngine_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projects\Test\ChronoSrc\src;c:\Projects\Test\ChronoSrc\bin;C:\Projects\Test\ChronoSrc\src\collision\bullet;C:\Projects\Test\ChronoSrc\src\collision\gimpact;C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projects\Test\ChronoSrc\src;c:\Projects\Test\ChronoSrc\bin;C:\Projects\Test\ChronoSrc\src\collision\bullet;C:\Projects\Test\ChronoSrc\src\collision\gimpact;C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ForceFileOutput>MultiplyDefinedSymbolOnly</ForceFileOutput>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>c:/Projects/Test/ChronoSrc/bin/lib/Debug/ChronoEngine.lib</ImportLibrary>
+      <ProgramDataBaseFile>c:/Projects/Test/ChronoSrc/bin/bin/Debug/ChronoEngine.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Projects\Test\ChronoSrc\src;c:\Projects\Test\ChronoSrc\bin;C:\Projects\Test\ChronoSrc\src\collision\bullet;C:\Projects\Test\ChronoSrc\src\collision\gimpact;C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>WIN64;_WIN64;NOMINMAX;_WINDOWS;NDEBUG;NODEBUG;CH_API_COMPILE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;BP_USE_FIXEDPOINT_INT_32;CMAKE_INTDIR="Release";ChronoEngine_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN64%3B;_WIN64%3B;NOMINMAX%3B;NDEBUG;NODEBUG;WIN64%3B;_WIN64%3B;NOMINMAX%3B;CH_API_COMPILE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;BP_USE_FIXEDPOINT_INT_32;CMAKE_INTDIR=\"Release\";ChronoEngine_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projects\Test\ChronoSrc\src;c:\Projects\Test\ChronoSrc\bin;C:\Projects\Test\ChronoSrc\src\collision\bullet;C:\Projects\Test\ChronoSrc\src\collision\gimpact;C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projects\Test\ChronoSrc\src;c:\Projects\Test\ChronoSrc\bin;C:\Projects\Test\ChronoSrc\src\collision\bullet;C:\Projects\Test\ChronoSrc\src\collision\gimpact;C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ForceFileOutput>MultiplyDefinedSymbolOnly</ForceFileOutput>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>c:/Projects/Test/ChronoSrc/bin/lib/Release/ChronoEngine.lib</ImportLibrary>
+      <ProgramDataBaseFile>c:/Projects/Test/ChronoSrc/bin/bin/Release/ChronoEngine.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Projects\Test\ChronoSrc\src;c:\Projects\Test\ChronoSrc\bin;C:\Projects\Test\ChronoSrc\src\collision\bullet;C:\Projects\Test\ChronoSrc\src\collision\gimpact;C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>WIN64%3B;_WIN64%3B;NOMINMAX%3B;CH_API_COMPILE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;BP_USE_FIXEDPOINT_INT_32;CMAKE_INTDIR="MinSizeRel";ChronoEngine_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN64%3B;_WIN64%3B;NOMINMAX%3B;CH_API_COMPILE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;BP_USE_FIXEDPOINT_INT_32;CMAKE_INTDIR=\"MinSizeRel\";ChronoEngine_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projects\Test\ChronoSrc\src;c:\Projects\Test\ChronoSrc\bin;C:\Projects\Test\ChronoSrc\src\collision\bullet;C:\Projects\Test\ChronoSrc\src\collision\gimpact;C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projects\Test\ChronoSrc\src;c:\Projects\Test\ChronoSrc\bin;C:\Projects\Test\ChronoSrc\src\collision\bullet;C:\Projects\Test\ChronoSrc\src\collision\gimpact;C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ForceFileOutput>MultiplyDefinedSymbolOnly</ForceFileOutput>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>c:/Projects/Test/ChronoSrc/bin/lib/MinSizeRel/ChronoEngine.lib</ImportLibrary>
+      <ProgramDataBaseFile>c:/Projects/Test/ChronoSrc/bin/bin/MinSizeRel/ChronoEngine.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Projects\Test\ChronoSrc\src;c:\Projects\Test\ChronoSrc\bin;C:\Projects\Test\ChronoSrc\src\collision\bullet;C:\Projects\Test\ChronoSrc\src\collision\gimpact;C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>WIN64%3B;_WIN64%3B;NOMINMAX%3B;CH_API_COMPILE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;BP_USE_FIXEDPOINT_INT_32;CMAKE_INTDIR="RelWithDebInfo";ChronoEngine_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN64%3B;_WIN64%3B;NOMINMAX%3B;CH_API_COMPILE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;BP_USE_FIXEDPOINT_INT_32;CMAKE_INTDIR=\"RelWithDebInfo\";ChronoEngine_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projects\Test\ChronoSrc\src;c:\Projects\Test\ChronoSrc\bin;C:\Projects\Test\ChronoSrc\src\collision\bullet;C:\Projects\Test\ChronoSrc\src\collision\gimpact;C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projects\Test\ChronoSrc\src;c:\Projects\Test\ChronoSrc\bin;C:\Projects\Test\ChronoSrc\src\collision\bullet;C:\Projects\Test\ChronoSrc\src\collision\gimpact;C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ForceFileOutput>MultiplyDefinedSymbolOnly</ForceFileOutput>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>c:/Projects/Test/ChronoSrc/bin/lib/RelWithDebInfo/ChronoEngine.lib</ImportLibrary>
+      <ProgramDataBaseFile>c:/Projects/Test/ChronoSrc/bin/bin/RelWithDebInfo/ChronoEngine.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\Test\ChronoSrc\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Projects/Test/ChronoSrc/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+F:\Development\CMake\bin\cmake.exe -HC:/Projects/Test/ChronoSrc/src -Bc:/Projects/Test/ChronoSrc/bin --check-stamp-file c:\Projects\Test\ChronoSrc\bin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Projects/Test/ChronoSrc/src/CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\CMakeLists.txt;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeSystem.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeCCompiler.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeCXXCompiler.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeRCCompiler.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Projects\Test\ChronoSrc\src\cmake\GetGitRevisionDescription.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindOpenMP.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindThreads.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckIncludeFiles.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckLibraryExists.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckSymbolExists.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Projects\Test\ChronoSrc\src\core\ChVersion.h.in;F:\Development\CMake\share\cmake-3.2\Modules\CPack.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CPackComponent.cmake;F:\Development\CMake\share\cmake-3.2\Templates\CPackConfig.cmake.in;F:\Development\CMake\share\cmake-3.2\Templates\CPackConfig.cmake.in;C:\Projects\Test\ChronoSrc\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">c:\Projects\Test\ChronoSrc\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Projects/Test/ChronoSrc/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+F:\Development\CMake\bin\cmake.exe -HC:/Projects/Test/ChronoSrc/src -Bc:/Projects/Test/ChronoSrc/bin --check-stamp-file c:\Projects\Test\ChronoSrc\bin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Projects/Test/ChronoSrc/src/CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\CMakeLists.txt;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeSystem.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeCCompiler.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeCXXCompiler.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeRCCompiler.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Projects\Test\ChronoSrc\src\cmake\GetGitRevisionDescription.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindOpenMP.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindThreads.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckIncludeFiles.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckLibraryExists.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckSymbolExists.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Projects\Test\ChronoSrc\src\core\ChVersion.h.in;F:\Development\CMake\share\cmake-3.2\Modules\CPack.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CPackComponent.cmake;F:\Development\CMake\share\cmake-3.2\Templates\CPackConfig.cmake.in;F:\Development\CMake\share\cmake-3.2\Templates\CPackConfig.cmake.in;C:\Projects\Test\ChronoSrc\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">c:\Projects\Test\ChronoSrc\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Projects/Test/ChronoSrc/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+F:\Development\CMake\bin\cmake.exe -HC:/Projects/Test/ChronoSrc/src -Bc:/Projects/Test/ChronoSrc/bin --check-stamp-file c:\Projects\Test\ChronoSrc\bin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Projects/Test/ChronoSrc/src/CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\CMakeLists.txt;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeSystem.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeCCompiler.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeCXXCompiler.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeRCCompiler.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Projects\Test\ChronoSrc\src\cmake\GetGitRevisionDescription.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindOpenMP.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindThreads.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckIncludeFiles.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckLibraryExists.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckSymbolExists.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Projects\Test\ChronoSrc\src\core\ChVersion.h.in;F:\Development\CMake\share\cmake-3.2\Modules\CPack.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CPackComponent.cmake;F:\Development\CMake\share\cmake-3.2\Templates\CPackConfig.cmake.in;F:\Development\CMake\share\cmake-3.2\Templates\CPackConfig.cmake.in;C:\Projects\Test\ChronoSrc\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">c:\Projects\Test\ChronoSrc\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Projects/Test/ChronoSrc/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+F:\Development\CMake\bin\cmake.exe -HC:/Projects/Test/ChronoSrc/src -Bc:/Projects/Test/ChronoSrc/bin --check-stamp-file c:\Projects\Test\ChronoSrc\bin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Projects/Test/ChronoSrc/src/CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\CMakeLists.txt;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeSystem.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeCCompiler.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeCXXCompiler.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeRCCompiler.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Projects\Test\ChronoSrc\src\cmake\GetGitRevisionDescription.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindOpenMP.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindThreads.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckIncludeFiles.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckLibraryExists.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckSymbolExists.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Projects\Test\ChronoSrc\src\core\ChVersion.h.in;F:\Development\CMake\share\cmake-3.2\Modules\CPack.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CPackComponent.cmake;F:\Development\CMake\share\cmake-3.2\Templates\CPackConfig.cmake.in;F:\Development\CMake\share\cmake-3.2\Templates\CPackConfig.cmake.in;C:\Projects\Test\ChronoSrc\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">c:\Projects\Test\ChronoSrc\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="c:\Projects\Test\ChronoSrc\bin\core\ChVersion.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChApiCE.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChChrono.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChClassRegister.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChCoordsys.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChException.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChFrame.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChFrameMoving.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChHashFunction.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChHashTable.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChLinearAlgebra.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChLists.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChLog.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChMath.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChMathematics.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChMatrix.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChMatrixDynamic.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChMatrixNM.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChMatrix33.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChVectorDynamic.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChMemory.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChMemorynomgr.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChPlatform.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChQuaternion.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChRunTimeType.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChShared.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChSmartpointers.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChFileutils.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChRealtimeStep.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChStream.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChTimer.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChTransform.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChVector.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChSpmatrix.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChWrapHashmap.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChDistribution.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChQuadrature.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChBodyFrame.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChBody.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChBodyAuxRef.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChBodyEasy.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChConstraint.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChContact.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactContainer.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactContainerBase.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactContainerNodes.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactNode.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactRolling.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChController.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChControls.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChConveyor.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChEvents.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChExternalObject.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChFilePS.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChForce.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChFunction.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChFx.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChGlobal.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChHistory.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChIndexedNodes.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChIndexedParticles.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChIntegrator.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChIterative.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLimit.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkBase.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLink.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkBrake.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkDistance.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkEngine.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkForce.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkGear.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkLinActuator.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkLock.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkMarkers.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkMask.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkMasked.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkNumdiff.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkPneumaticActuator.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkPointSpline.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkPulley.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinksAll.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkScrew.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkSpring.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkSpringCB.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkTrajectory.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkWheel.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkClearance.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkMate.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkRackpinion.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkRevolute.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkRevoluteSpherical.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkUniversal.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChMarker.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChMaterialCouple.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChMaterialSurfaceBase.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChMaterialSurface.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChMaterialSurfaceDEM.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChMatterSPH.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChNlsolver.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChVariablesInterface.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChNodeBase.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChNodeXYZ.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChObject.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChParticlesClones.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChPhysicsItem.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChProbe.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChProplist.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChProximityContainerBase.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChProximityContainerSPH.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChRef.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChScriptEngine.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaft.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsBody.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsClutch.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsCouple.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsGear.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsGearbox.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsGearboxAngled.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsMotor.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsPlanetary.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsTorqueBase.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsTorque.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsTorsionSpring.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsTorqueConverter.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsThermalEngine.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChSolver.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChSolvmin.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChSystem.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChAssembly.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChSystemDEM.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactContainerDEM.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactDEM.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChTensors.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChContinuumMaterial.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChInertiaUtils.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraint.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintNodeContactN.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintNodeFrictionT.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintThree.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintThreeBBShaft.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintThreeGeneric.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwo.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoBodies.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoContact.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoContactN.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoFriction.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoFrictionApprox.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoFrictionT.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoGeneric.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoGenericBoxed.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoRollingN.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoRollingT.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpDirectSolver.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeJacobi.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeMINRES.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativePMINRES.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeBB.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativePCG.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeAPGD.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeSolver.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeSOR.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeSORmultithread.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeSymmSOR.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpSimplexSolver.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpSolver.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpSystemDescriptor.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariables.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesBody.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesBodyOwnMass.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesBodySharedMass.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesShaft.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesGeneric.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesNode.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpKblock.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpKblockGeneric.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpSolverDEM.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\ChCCollisionInfo.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\ChCCollisionModel.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\ChCCollisionPair.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\ChCCollisionSystem.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\ChCCollisionSystemBullet.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\ChCConvexDecomposition.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\ChCModelBullet.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\ChCModelBulletBody.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\ChCModelBulletNode.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\ChCModelBulletParticle.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\ChCCollisionUtils.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCGeometry.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCSphere.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCEllipsoid.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCBox.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCCone.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCCylinder.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCCapsule.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCLine.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCLineCam.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCLinePoly.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCLineArc.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCLineSegment.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCLinePath.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCTriangle.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCTriangleMesh.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCTriangleMeshSoup.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCTriangleMeshConnected.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCRoundedBox.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCRoundedCylinder.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCRoundedCone.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChAsset.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChVisualization.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChObjShapeFile.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChTriangleMeshShape.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChSphereShape.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChEllipsoidShape.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChBoxShape.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChConeShape.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChCylinderShape.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChCapsuleShape.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChTexture.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChCamera.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChAssetLevel.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChColor.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChMaterial.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChGlyphs.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChColorAsset.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChRoundedCylinderShape.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChRoundedBoxShape.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChRoundedConeShape.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChPathShape.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCAABB.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCAABBcollider.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCAABBTree.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCAbsoluteAABB.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCBroadPhaseCollider.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCBruteForce.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCCollisionTree.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCCompile.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCGeometryCollider.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCGetTime.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCMates.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCMatVec.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCNarrowPhaseCollider.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCOBB.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCOBBcollider.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCOBBTree.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCSweepAndPrune.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvConcavityVolume.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvConvexDecomposition.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvFloatMath.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvHashMap.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvMeshIslandGeneration.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvRayCast.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvRemoveTjunctions.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvSimpleTypes.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvSplitMesh.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvStanHull.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvUserMemAlloc.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\assepneumatico.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\pistone.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\pistone_3_2.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\pistone_3_2_prop.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\sis_attuatore_3_2.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\sis_attuatore_3_2_prop.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\sistema.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\ugello.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\ugello_controllato.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\ugello_controllato_PA.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\ugello_controllato_RA.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\valvola_3_2.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\valvola_3_2_prop.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\volume.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\particlefactory\ChParticleEmitter.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\particlefactory\ChRandomShapeCreator.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\particlefactory\ChRandomParticlePosition.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\particlefactory\ChRandomParticleAlignment.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\particlefactory\ChRandomParticleVelocity.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\particlefactory\ChParticleRemover.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\particlefactory\ChParticleEventTrigger.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\particlefactory\ChParticleProcessEvent.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\particlefactory\ChParticleProcessor.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\timestepper\ChState.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\timestepper\ChIntegrable.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\timestepper\ChTimestepper.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\timestepper\ChStaticAnalysis.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Base.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Const.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_ConstAcc.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Derive.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Fillet3.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Integrate.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Matlab.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Mirror.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Mocap.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Noise.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Operation.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Oscilloscope.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Poly345.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Poly.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Ramp.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Recorder.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Repeat.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Sequence.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Sigma.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Sine.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\parallel\ChOpenMP.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\parallel\ChThreads.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\parallel\ChThreadsFunct.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\parallel\ChThreadsPOSIX.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\parallel\ChThreadsSync.h" />
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\parallel\ChThreadsWIN32.h" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\core\ChLog.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\core\ChClassRegister.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\core\ChFileutils.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\core\ChStream.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\core\ChMathematics.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\core\ChVector.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\core\ChQuaternion.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\core\ChCoordsys.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\core\ChMemory.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\core\ChSpmatrix.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\core\ChQuadrature.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChFilePS.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChNlsolver.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChFunction.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLimit.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChObject.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChMarker.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChForce.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChBodyFrame.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChBody.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChBodyAuxRef.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkForce.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkMask.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkBase.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLink.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkDistance.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkMasked.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkMarkers.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkNumdiff.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkLock.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkBrake.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkEngine.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkGear.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkPulley.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkLinActuator.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkPneumaticActuator.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkScrew.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkSpring.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkSpringCB.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkWheel.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkClearance.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkPointSpline.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkTrajectory.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkMate.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkRackpinion.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkRevolute.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkRevoluteSpherical.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkUniversal.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChHistory.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChSystem.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChGlobal.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChEvents.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChSolvmin.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChProbe.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChControls.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChIntegrator.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChController.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChIterative.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChRef.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChConstraint.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChPhysicsItem.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChParticlesClones.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChIndexedParticles.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChIndexedNodes.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChNodeBase.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChNodeXYZ.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChMatterSPH.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChContact.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactRolling.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactNode.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactContainerBase.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactContainer.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactContainerNodes.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChProximityContainerBase.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChProximityContainerSPH.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaft.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsGear.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsGearbox.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsGearboxAngled.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsClutch.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsPlanetary.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsMotor.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsBody.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsTorqueBase.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsTorque.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsTorsionSpring.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsTorqueConverter.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsThermalEngine.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChConveyor.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChFx.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChAssembly.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChSystemDEM.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactContainerDEM.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactDEM.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChMaterialSurfaceDEM.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChContinuumMaterial.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpSystemDescriptor.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpSolver.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeSOR.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeSORmultithread.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeJacobi.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeSymmSOR.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeMINRES.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativePMINRES.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeBB.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativePCG.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeAPGD.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpSimplexSolver.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraint.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwo.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoGeneric.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoGenericBoxed.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoBodies.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoFrictionT.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoContactN.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoRollingT.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoRollingN.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintNodeFrictionT.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintNodeContactN.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintThree.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintThreeGeneric.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintThreeBBShaft.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariables.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesGeneric.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesBody.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesBodySharedMass.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesBodyOwnMass.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesShaft.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesNode.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpKblockGeneric.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpSolverDEM.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\ChCCollisionModel.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\ChCModelBullet.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\ChCModelBulletBody.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\ChCModelBulletParticle.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\ChCModelBulletNode.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\ChCCollisionSystemBullet.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\ChCConvexDecomposition.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\ChCCollisionUtils.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCGeometry.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCSphere.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCEllipsoid.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCBox.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCCone.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCCylinder.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCCapsule.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCLine.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCLineCam.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCLinePoly.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCTriangle.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCTriangleMeshConnected.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCRoundedBox.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCRoundedCylinder.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCRoundedCone.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChAsset.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChVisualization.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChObjShapeFile.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChTriangleMeshShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChSphereShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChEllipsoidShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChBoxShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChConeShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChCylinderShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChCapsuleShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChTexture.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChCamera.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChAssetLevel.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChGlyphs.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChColorAsset.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChRoundedCylinderShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChRoundedBoxShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChRoundedConeShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChPathShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCCollisionTree.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCOBBTree.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCAABBTree.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCOBB.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCAABB.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCOBBcollider.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCAABBcollider.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCNarrowPhaseCollider.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCGeometryCollider.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvConcavityVolume.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvConvexDecomposition.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvFloatMath.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvMeshIslandGeneration.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvRayCast.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvRemoveTjunctions.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvSplitMesh.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvStanHull.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD\hacdRaycastMesh.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD\hacdMicroAllocator.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD\hacdGraph.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD\hacdMeshDecimator.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD\hacdHACD.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD\hacdManifoldMesh.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD\hacdICHull.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\AutoGeometry.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\HACD.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\ConvexHull.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\WuQuantizer.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\dgTypes.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\dgConvexHull3d.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\dgTree.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\dgGoogol.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\dgSphere.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\dgSmallDeterminant.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\dgQuaternion.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\dgMatrix.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\dgPolyhedra.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\dgMeshEffect.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\MergeHulls.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\wavefront.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\assepneumatico.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\pistone.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\pistone_3_2.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\pistone_3_2_prop.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\sis_attuatore_3_2.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\sis_attuatore_3_2_prop.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\sistema.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\ugello.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\ugello_controllato.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\ugello_controllato_PA.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\ugello_controllato_RA.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\valvola_3_2.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\valvola_3_2_prop.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\timestepper\ChTimestepper.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Base.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Const.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_ConstAcc.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Derive.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Fillet3.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Integrate.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Matlab.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Mirror.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Mocap.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Noise.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Operation.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Oscilloscope.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Poly345.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Poly.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Ramp.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Recorder.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Repeat.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Sequence.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Sigma.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Sine.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\parallel\ChThreads.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\parallel\ChThreadsPOSIX.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\parallel\ChThreadsWIN32.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\BroadphaseCollision\btAxisSweep3.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\BroadphaseCollision\btSimpleBroadphase.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\BroadphaseCollision\btOverlappingPairCache.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\BroadphaseCollision\btBroadphaseProxy.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\BroadphaseCollision\btDispatcher.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\BroadphaseCollision\btMultiSapBroadphase.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\BroadphaseCollision\btCollisionAlgorithm.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\BroadphaseCollision\btDbvt.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\BroadphaseCollision\btDbvtBroadphase.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\BroadphaseCollision\btQuantizedBvh.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btUnionFind.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btCollisionDispatcher.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btSphereSphereCollisionAlgorithm.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btCollisionObject.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btSphereBoxCollisionAlgorithm.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btCollisionWorld.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btSimulationIslandManager.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btCompoundCollisionAlgorithm.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btManifoldResult.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btConvexConcaveCollisionAlgorithm.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btEmptyCollisionAlgorithm.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btSphereTriangleCollisionAlgorithm.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btConvexConvexAlgorithm.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\SphereTriangleDetector.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btDefaultCollisionConfiguration.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btConvexPlaneCollisionAlgorithm.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btActivatingCollisionAlgorithm.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btBox2dBox2dCollisionAlgorithm.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btBoxBoxCollisionAlgorithm.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btBoxBoxDetector.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btGhostObject.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btConvex2dConvex2dAlgorithm.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btInternalEdgeUtility.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btBarrelShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btBoxShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btTriangleMeshShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btBvhTriangleMeshShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btTriangleMesh.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btTriangleIndexVertexArray.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btCollisionShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btTriangleCallback.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btCompoundShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btTetrahedronShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btConcaveShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btStridingMeshInterface.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btConeShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btStaticPlaneShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btConvexHullShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btSphereShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btConvexShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btPolyhedralConvexShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btConvexTriangleMeshShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btOptimizedBvh.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btCylinderShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btMultiSphereShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btEmptyShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btMinkowskiSumShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btTriangleBuffer.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btCapsuleShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btConvexInternalShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btUniformScalingShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btBox2dShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btConvex2dShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btConvexPointCloudShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btMultimaterialTriangleMeshShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btScaledBvhTriangleMeshShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btShapeHull.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btTriangleIndexVertexMaterialArray.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\NarrowPhaseCollision\btContinuousConvexCollision.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\NarrowPhaseCollision\btSubSimplexConvexCast.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\NarrowPhaseCollision\btConvexCast.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\NarrowPhaseCollision\btRaycastCallback.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\NarrowPhaseCollision\btMinkowskiPenetrationDepthSolver.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\NarrowPhaseCollision\btGjkConvexCast.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\NarrowPhaseCollision\btGjkEpaPenetrationDepthSolver.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\NarrowPhaseCollision\btGjkEpa2.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletFileLoader\bChunk.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletFileLoader\bDNA.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletFileLoader\bFile.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletFileLoader\btBulletFile.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletWorldImporter\btBulletWorldImporter.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\LinearMath\btQuickprof.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\LinearMath\btAlignedAllocator.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\LinearMath\btGeometryUtil.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\LinearMath\btConvexHull.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\LinearMath\btSerializer.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACT\core\gim_box_set.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACT\core\gim_contact.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACT\core\gim_memory.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACT\core\gim_tri_collision.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACT\Bullet\btContactProcessing.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACT\Bullet\btGenericPoolAllocator.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACT\Bullet\btGImpactBvh.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACT\Bullet\btGImpactCollisionAlgorithm.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACT\Bullet\btGImpactQuantizedBvh.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACT\Bullet\btGImpactShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACT\Bullet\btTriangleShapeEx.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACTUtils\btGImpactConvexDecompositionShape.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\bestfit.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\bestfitobb.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\cd_hull.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\concavity.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\ConvexBuilder.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\ConvexDecomposition.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\fitsphere.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\float_math.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\meshvolume.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\planetri.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\raytri.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\splitplane.cpp" />
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\vlookup.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="c:/Projects/Test/ChronoSrc/bin/ZERO_CHECK.vcxproj">
+      <Project>F5E79A8D-7597-44A9-9BE0-01C65FF4A4C6</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

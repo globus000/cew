@@ -1,0 +1,2088 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\core\ChLog.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\core\ChClassRegister.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\core\ChFileutils.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\core\ChStream.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\core\ChMathematics.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\core\ChVector.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\core\ChQuaternion.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\core\ChCoordsys.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\core\ChMemory.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\core\ChSpmatrix.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\core\ChQuadrature.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChFilePS.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChNlsolver.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChFunction.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLimit.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChObject.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChMarker.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChForce.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChBodyFrame.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChBody.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChBodyAuxRef.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkForce.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkMask.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkBase.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLink.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkDistance.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkMasked.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkMarkers.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkNumdiff.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkLock.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkBrake.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkEngine.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkGear.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkPulley.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkLinActuator.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkPneumaticActuator.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkScrew.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkSpring.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkSpringCB.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkWheel.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkClearance.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkPointSpline.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkTrajectory.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkMate.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkRackpinion.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkRevolute.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkRevoluteSpherical.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkUniversal.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChHistory.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChSystem.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChGlobal.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChEvents.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChSolvmin.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChProbe.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChControls.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChIntegrator.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChController.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChIterative.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChRef.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChConstraint.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChPhysicsItem.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChParticlesClones.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChIndexedParticles.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChIndexedNodes.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChNodeBase.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChNodeXYZ.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChMatterSPH.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChContact.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactRolling.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactNode.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactContainerBase.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactContainer.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactContainerNodes.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChProximityContainerBase.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChProximityContainerSPH.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaft.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsGear.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsGearbox.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsGearboxAngled.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsClutch.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsPlanetary.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsMotor.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsBody.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsTorqueBase.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsTorque.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsTorsionSpring.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsTorqueConverter.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsThermalEngine.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChConveyor.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChFx.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChAssembly.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChSystemDEM.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactContainerDEM.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactDEM.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChMaterialSurfaceDEM.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\physics\ChContinuumMaterial.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpSystemDescriptor.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpSolver.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeSOR.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeSORmultithread.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeJacobi.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeSymmSOR.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeMINRES.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativePMINRES.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeBB.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativePCG.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeAPGD.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpSimplexSolver.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraint.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwo.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoGeneric.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoGenericBoxed.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoBodies.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoFrictionT.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoContactN.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoRollingT.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoRollingN.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintNodeFrictionT.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintNodeContactN.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintThree.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintThreeGeneric.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintThreeBBShaft.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariables.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesGeneric.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesBody.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesBodySharedMass.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesBodyOwnMass.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesShaft.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesNode.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpKblockGeneric.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpSolverDEM.cpp">
+      <Filter>lcp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\ChCCollisionModel.cpp">
+      <Filter>collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\ChCModelBullet.cpp">
+      <Filter>collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\ChCModelBulletBody.cpp">
+      <Filter>collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\ChCModelBulletParticle.cpp">
+      <Filter>collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\ChCModelBulletNode.cpp">
+      <Filter>collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\ChCCollisionSystemBullet.cpp">
+      <Filter>collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\ChCConvexDecomposition.cpp">
+      <Filter>collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\ChCCollisionUtils.cpp">
+      <Filter>collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCGeometry.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCSphere.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCEllipsoid.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCBox.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCCone.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCCylinder.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCCapsule.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCLine.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCLineCam.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCLinePoly.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCTriangle.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCTriangleMeshConnected.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCRoundedBox.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCRoundedCylinder.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCRoundedCone.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChAsset.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChVisualization.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChObjShapeFile.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChTriangleMeshShape.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChSphereShape.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChEllipsoidShape.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChBoxShape.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChConeShape.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChCylinderShape.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChCapsuleShape.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChTexture.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChCamera.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChAssetLevel.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChGlyphs.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChColorAsset.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChRoundedCylinderShape.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChRoundedBoxShape.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChRoundedConeShape.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\assets\ChPathShape.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCCollisionTree.cpp">
+      <Filter>collision\edgetempest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCOBBTree.cpp">
+      <Filter>collision\edgetempest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCAABBTree.cpp">
+      <Filter>collision\edgetempest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCOBB.cpp">
+      <Filter>collision\edgetempest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCAABB.cpp">
+      <Filter>collision\edgetempest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCOBBcollider.cpp">
+      <Filter>collision\edgetempest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCAABBcollider.cpp">
+      <Filter>collision\edgetempest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCNarrowPhaseCollider.cpp">
+      <Filter>collision\edgetempest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCGeometryCollider.cpp">
+      <Filter>collision\edgetempest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvConcavityVolume.cpp">
+      <Filter>collision\convexdecomp\JR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvConvexDecomposition.cpp">
+      <Filter>collision\convexdecomp\JR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvFloatMath.cpp">
+      <Filter>collision\convexdecomp\JR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvMeshIslandGeneration.cpp">
+      <Filter>collision\convexdecomp\JR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvRayCast.cpp">
+      <Filter>collision\convexdecomp\JR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvRemoveTjunctions.cpp">
+      <Filter>collision\convexdecomp\JR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvSplitMesh.cpp">
+      <Filter>collision\convexdecomp\JR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvStanHull.cpp">
+      <Filter>collision\convexdecomp\JR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD\hacdRaycastMesh.cpp">
+      <Filter>collision\convexdecomp\HACD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD\hacdMicroAllocator.cpp">
+      <Filter>collision\convexdecomp\HACD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD\hacdGraph.cpp">
+      <Filter>collision\convexdecomp\HACD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD\hacdMeshDecimator.cpp">
+      <Filter>collision\convexdecomp\HACD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD\hacdHACD.cpp">
+      <Filter>collision\convexdecomp\HACD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD\hacdManifoldMesh.cpp">
+      <Filter>collision\convexdecomp\HACD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD\hacdICHull.cpp">
+      <Filter>collision\convexdecomp\HACD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\AutoGeometry.cpp">
+      <Filter>collision\convexdecomp\HACDv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\HACD.cpp">
+      <Filter>collision\convexdecomp\HACDv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\ConvexHull.cpp">
+      <Filter>collision\convexdecomp\HACDv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\WuQuantizer.cpp">
+      <Filter>collision\convexdecomp\HACDv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\dgTypes.cpp">
+      <Filter>collision\convexdecomp\HACDv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\dgConvexHull3d.cpp">
+      <Filter>collision\convexdecomp\HACDv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\dgTree.cpp">
+      <Filter>collision\convexdecomp\HACDv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\dgGoogol.cpp">
+      <Filter>collision\convexdecomp\HACDv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\dgSphere.cpp">
+      <Filter>collision\convexdecomp\HACDv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\dgSmallDeterminant.cpp">
+      <Filter>collision\convexdecomp\HACDv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\dgQuaternion.cpp">
+      <Filter>collision\convexdecomp\HACDv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\dgMatrix.cpp">
+      <Filter>collision\convexdecomp\HACDv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\dgPolyhedra.cpp">
+      <Filter>collision\convexdecomp\HACDv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\dgMeshEffect.cpp">
+      <Filter>collision\convexdecomp\HACDv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\MergeHulls.cpp">
+      <Filter>collision\convexdecomp\HACDv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACDv2\wavefront.cpp">
+      <Filter>collision\convexdecomp\HACDv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\assepneumatico.cpp">
+      <Filter>pneumatica</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\pistone.cpp">
+      <Filter>pneumatica</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\pistone_3_2.cpp">
+      <Filter>pneumatica</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\pistone_3_2_prop.cpp">
+      <Filter>pneumatica</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\sis_attuatore_3_2.cpp">
+      <Filter>pneumatica</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\sis_attuatore_3_2_prop.cpp">
+      <Filter>pneumatica</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\sistema.cpp">
+      <Filter>pneumatica</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\ugello.cpp">
+      <Filter>pneumatica</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\ugello_controllato.cpp">
+      <Filter>pneumatica</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\ugello_controllato_PA.cpp">
+      <Filter>pneumatica</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\ugello_controllato_RA.cpp">
+      <Filter>pneumatica</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\valvola_3_2.cpp">
+      <Filter>pneumatica</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\pneumatica\valvola_3_2_prop.cpp">
+      <Filter>pneumatica</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\timestepper\ChTimestepper.cpp">
+      <Filter>timestepper</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Base.cpp">
+      <Filter>motion_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Const.cpp">
+      <Filter>motion_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_ConstAcc.cpp">
+      <Filter>motion_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Derive.cpp">
+      <Filter>motion_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Fillet3.cpp">
+      <Filter>motion_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Integrate.cpp">
+      <Filter>motion_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Matlab.cpp">
+      <Filter>motion_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Mirror.cpp">
+      <Filter>motion_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Mocap.cpp">
+      <Filter>motion_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Noise.cpp">
+      <Filter>motion_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Operation.cpp">
+      <Filter>motion_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Oscilloscope.cpp">
+      <Filter>motion_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Poly345.cpp">
+      <Filter>motion_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Poly.cpp">
+      <Filter>motion_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Ramp.cpp">
+      <Filter>motion_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Recorder.cpp">
+      <Filter>motion_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Repeat.cpp">
+      <Filter>motion_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Sequence.cpp">
+      <Filter>motion_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Sigma.cpp">
+      <Filter>motion_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Sine.cpp">
+      <Filter>motion_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\parallel\ChThreads.cpp">
+      <Filter>parallel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\parallel\ChThreadsPOSIX.cpp">
+      <Filter>parallel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\parallel\ChThreadsWIN32.cpp">
+      <Filter>parallel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\BroadphaseCollision\btAxisSweep3.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\BroadphaseCollision\btSimpleBroadphase.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\BroadphaseCollision\btOverlappingPairCache.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\BroadphaseCollision\btBroadphaseProxy.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\BroadphaseCollision\btDispatcher.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\BroadphaseCollision\btMultiSapBroadphase.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\BroadphaseCollision\btCollisionAlgorithm.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\BroadphaseCollision\btDbvt.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\BroadphaseCollision\btDbvtBroadphase.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\BroadphaseCollision\btQuantizedBvh.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btUnionFind.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btCollisionDispatcher.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btSphereSphereCollisionAlgorithm.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btCollisionObject.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btSphereBoxCollisionAlgorithm.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btCollisionWorld.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btSimulationIslandManager.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btCompoundCollisionAlgorithm.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btManifoldResult.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btConvexConcaveCollisionAlgorithm.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btEmptyCollisionAlgorithm.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btSphereTriangleCollisionAlgorithm.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btConvexConvexAlgorithm.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\SphereTriangleDetector.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btDefaultCollisionConfiguration.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btConvexPlaneCollisionAlgorithm.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btActivatingCollisionAlgorithm.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btBox2dBox2dCollisionAlgorithm.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btBoxBoxCollisionAlgorithm.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btBoxBoxDetector.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btGhostObject.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btConvex2dConvex2dAlgorithm.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionDispatch\btInternalEdgeUtility.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btBarrelShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btBoxShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btTriangleMeshShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btBvhTriangleMeshShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btTriangleMesh.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btTriangleIndexVertexArray.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btCollisionShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btTriangleCallback.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btCompoundShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btTetrahedronShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btConcaveShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btStridingMeshInterface.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btConeShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btStaticPlaneShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btConvexHullShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btSphereShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btConvexShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btPolyhedralConvexShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btConvexTriangleMeshShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btOptimizedBvh.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btCylinderShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btMultiSphereShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btEmptyShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btMinkowskiSumShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btTriangleBuffer.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btCapsuleShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btConvexInternalShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btUniformScalingShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btBox2dShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btConvex2dShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btConvexPointCloudShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btMultimaterialTriangleMeshShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btScaledBvhTriangleMeshShape.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btShapeHull.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\CollisionShapes\btTriangleIndexVertexMaterialArray.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\NarrowPhaseCollision\btContinuousConvexCollision.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\NarrowPhaseCollision\btSubSimplexConvexCast.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\NarrowPhaseCollision\btConvexCast.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\NarrowPhaseCollision\btRaycastCallback.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\NarrowPhaseCollision\btMinkowskiPenetrationDepthSolver.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\NarrowPhaseCollision\btGjkConvexCast.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\NarrowPhaseCollision\btGjkEpaPenetrationDepthSolver.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletCollision\NarrowPhaseCollision\btGjkEpa2.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletFileLoader\bChunk.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletFileLoader\bDNA.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletFileLoader\bFile.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletFileLoader\btBulletFile.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\BulletWorldImporter\btBulletWorldImporter.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\LinearMath\btQuickprof.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\LinearMath\btAlignedAllocator.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\LinearMath\btGeometryUtil.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\LinearMath\btConvexHull.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\bullet\LinearMath\btSerializer.cpp">
+      <Filter>collision\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACT\core\gim_box_set.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACT\core\gim_contact.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACT\core\gim_memory.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACT\core\gim_tri_collision.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACT\Bullet\btContactProcessing.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACT\Bullet\btGenericPoolAllocator.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACT\Bullet\btGImpactBvh.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACT\Bullet\btGImpactCollisionAlgorithm.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACT\Bullet\btGImpactQuantizedBvh.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACT\Bullet\btGImpactShape.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACT\Bullet\btTriangleShapeEx.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\GIMPACTUtils\btGImpactConvexDecompositionShape.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\bestfit.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\bestfitobb.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\cd_hull.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\concavity.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\ConvexBuilder.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\ConvexDecomposition.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\fitsphere.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\float_math.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\meshvolume.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\planetri.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\raytri.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\splitplane.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Test\ChronoSrc\src\collision\gimpact\ConvexDecomposition\vlookup.cpp">
+      <Filter>collision\gimpact</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="c:\Projects\Test\ChronoSrc\bin\core\ChVersion.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChApiCE.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChChrono.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChClassRegister.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChCoordsys.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChException.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChFrame.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChFrameMoving.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChHashFunction.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChHashTable.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChLinearAlgebra.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChLists.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChLog.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChMath.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChMathematics.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChMatrix.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChMatrixDynamic.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChMatrixNM.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChMatrix33.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChVectorDynamic.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChMemory.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChMemorynomgr.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChPlatform.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChQuaternion.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChRunTimeType.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChShared.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChSmartpointers.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChFileutils.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChRealtimeStep.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChStream.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChTimer.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChTransform.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChVector.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChSpmatrix.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChWrapHashmap.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChDistribution.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\core\ChQuadrature.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChBodyFrame.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChBody.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChBodyAuxRef.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChBodyEasy.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChConstraint.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChContact.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactContainer.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactContainerBase.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactContainerNodes.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactNode.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactRolling.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChController.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChControls.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChConveyor.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChEvents.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChExternalObject.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChFilePS.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChForce.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChFunction.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChFx.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChGlobal.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChHistory.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChIndexedNodes.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChIndexedParticles.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChIntegrator.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChIterative.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLimit.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkBase.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLink.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkBrake.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkDistance.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkEngine.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkForce.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkGear.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkLinActuator.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkLock.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkMarkers.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkMask.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkMasked.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkNumdiff.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkPneumaticActuator.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkPointSpline.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkPulley.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinksAll.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkScrew.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkSpring.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkSpringCB.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkTrajectory.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkWheel.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkClearance.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkMate.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkRackpinion.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkRevolute.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkRevoluteSpherical.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChLinkUniversal.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChMarker.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChMaterialCouple.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChMaterialSurfaceBase.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChMaterialSurface.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChMaterialSurfaceDEM.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChMatterSPH.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChNlsolver.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChVariablesInterface.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChNodeBase.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChNodeXYZ.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChObject.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChParticlesClones.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChPhysicsItem.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChProbe.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChProplist.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChProximityContainerBase.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChProximityContainerSPH.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChRef.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChScriptEngine.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaft.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsBody.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsClutch.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsCouple.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsGear.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsGearbox.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsGearboxAngled.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsMotor.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsPlanetary.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsTorqueBase.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsTorque.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsTorsionSpring.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsTorqueConverter.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChShaftsThermalEngine.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChSolver.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChSolvmin.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChSystem.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChAssembly.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChSystemDEM.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactContainerDEM.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChContactDEM.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChTensors.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChContinuumMaterial.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\physics\ChInertiaUtils.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraint.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintNodeContactN.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintNodeFrictionT.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintThree.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintThreeBBShaft.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintThreeGeneric.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwo.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoBodies.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoContact.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoContactN.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoFriction.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoFrictionApprox.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoFrictionT.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoGeneric.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoGenericBoxed.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoRollingN.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpConstraintTwoRollingT.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpDirectSolver.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeJacobi.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeMINRES.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativePMINRES.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeBB.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativePCG.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeAPGD.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeSolver.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeSOR.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeSORmultithread.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpIterativeSymmSOR.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpSimplexSolver.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpSolver.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpSystemDescriptor.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariables.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesBody.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesBodyOwnMass.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesBodySharedMass.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesShaft.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesGeneric.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpVariablesNode.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpKblock.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpKblockGeneric.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\lcp\ChLcpSolverDEM.h">
+      <Filter>lcp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\ChCCollisionInfo.h">
+      <Filter>collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\ChCCollisionModel.h">
+      <Filter>collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\ChCCollisionPair.h">
+      <Filter>collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\ChCCollisionSystem.h">
+      <Filter>collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\ChCCollisionSystemBullet.h">
+      <Filter>collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\ChCConvexDecomposition.h">
+      <Filter>collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\ChCModelBullet.h">
+      <Filter>collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\ChCModelBulletBody.h">
+      <Filter>collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\ChCModelBulletNode.h">
+      <Filter>collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\ChCModelBulletParticle.h">
+      <Filter>collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\ChCCollisionUtils.h">
+      <Filter>collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCGeometry.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCSphere.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCEllipsoid.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCBox.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCCone.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCCylinder.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCCapsule.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCLine.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCLineCam.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCLinePoly.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCLineArc.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCLineSegment.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCLinePath.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCTriangle.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCTriangleMesh.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCTriangleMeshSoup.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCTriangleMeshConnected.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCRoundedBox.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCRoundedCylinder.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\geometry\ChCRoundedCone.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChAsset.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChVisualization.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChObjShapeFile.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChTriangleMeshShape.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChSphereShape.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChEllipsoidShape.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChBoxShape.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChConeShape.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChCylinderShape.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChCapsuleShape.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChTexture.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChCamera.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChAssetLevel.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChColor.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChMaterial.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChGlyphs.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChColorAsset.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChRoundedCylinderShape.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChRoundedBoxShape.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChRoundedConeShape.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\assets\ChPathShape.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCAABB.h">
+      <Filter>collision\edgetempest</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCAABBcollider.h">
+      <Filter>collision\edgetempest</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCAABBTree.h">
+      <Filter>collision\edgetempest</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCAbsoluteAABB.h">
+      <Filter>collision\edgetempest</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCBroadPhaseCollider.h">
+      <Filter>collision\edgetempest</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCBruteForce.h">
+      <Filter>collision\edgetempest</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCCollisionTree.h">
+      <Filter>collision\edgetempest</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCCompile.h">
+      <Filter>collision\edgetempest</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCGeometryCollider.h">
+      <Filter>collision\edgetempest</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCGetTime.h">
+      <Filter>collision\edgetempest</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCMates.h">
+      <Filter>collision\edgetempest</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCMatVec.h">
+      <Filter>collision\edgetempest</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCNarrowPhaseCollider.h">
+      <Filter>collision\edgetempest</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCOBB.h">
+      <Filter>collision\edgetempest</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCOBBcollider.h">
+      <Filter>collision\edgetempest</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCOBBTree.h">
+      <Filter>collision\edgetempest</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\edgetempest\ChCSweepAndPrune.h">
+      <Filter>collision\edgetempest</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvConcavityVolume.h">
+      <Filter>collision\convexdecomp\JR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvConvexDecomposition.h">
+      <Filter>collision\convexdecomp\JR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvFloatMath.h">
+      <Filter>collision\convexdecomp\JR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvHashMap.h">
+      <Filter>collision\convexdecomp\JR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvMeshIslandGeneration.h">
+      <Filter>collision\convexdecomp\JR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvRayCast.h">
+      <Filter>collision\convexdecomp\JR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvRemoveTjunctions.h">
+      <Filter>collision\convexdecomp\JR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvSimpleTypes.h">
+      <Filter>collision\convexdecomp\JR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvSplitMesh.h">
+      <Filter>collision\convexdecomp\JR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvStanHull.h">
+      <Filter>collision\convexdecomp\JR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\JR\NvUserMemAlloc.h">
+      <Filter>collision\convexdecomp\JR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\assepneumatico.h">
+      <Filter>pneumatica</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\pistone.h">
+      <Filter>pneumatica</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\pistone_3_2.h">
+      <Filter>pneumatica</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\pistone_3_2_prop.h">
+      <Filter>pneumatica</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\sis_attuatore_3_2.h">
+      <Filter>pneumatica</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\sis_attuatore_3_2_prop.h">
+      <Filter>pneumatica</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\sistema.h">
+      <Filter>pneumatica</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\ugello.h">
+      <Filter>pneumatica</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\ugello_controllato.h">
+      <Filter>pneumatica</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\ugello_controllato_PA.h">
+      <Filter>pneumatica</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\ugello_controllato_RA.h">
+      <Filter>pneumatica</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\valvola_3_2.h">
+      <Filter>pneumatica</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\valvola_3_2_prop.h">
+      <Filter>pneumatica</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\pneumatica\volume.h">
+      <Filter>pneumatica</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\particlefactory\ChParticleEmitter.h">
+      <Filter>particlefactory</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\particlefactory\ChRandomShapeCreator.h">
+      <Filter>particlefactory</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\particlefactory\ChRandomParticlePosition.h">
+      <Filter>particlefactory</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\particlefactory\ChRandomParticleAlignment.h">
+      <Filter>particlefactory</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\particlefactory\ChRandomParticleVelocity.h">
+      <Filter>particlefactory</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\particlefactory\ChParticleRemover.h">
+      <Filter>particlefactory</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\particlefactory\ChParticleEventTrigger.h">
+      <Filter>particlefactory</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\particlefactory\ChParticleProcessEvent.h">
+      <Filter>particlefactory</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\particlefactory\ChParticleProcessor.h">
+      <Filter>particlefactory</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\timestepper\ChState.h">
+      <Filter>timestepper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\timestepper\ChIntegrable.h">
+      <Filter>timestepper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\timestepper\ChTimestepper.h">
+      <Filter>timestepper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\timestepper\ChStaticAnalysis.h">
+      <Filter>timestepper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Base.h">
+      <Filter>motion_functions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Const.h">
+      <Filter>motion_functions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_ConstAcc.h">
+      <Filter>motion_functions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Derive.h">
+      <Filter>motion_functions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Fillet3.h">
+      <Filter>motion_functions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Integrate.h">
+      <Filter>motion_functions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Matlab.h">
+      <Filter>motion_functions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Mirror.h">
+      <Filter>motion_functions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Mocap.h">
+      <Filter>motion_functions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Noise.h">
+      <Filter>motion_functions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Operation.h">
+      <Filter>motion_functions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Oscilloscope.h">
+      <Filter>motion_functions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Poly345.h">
+      <Filter>motion_functions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Poly.h">
+      <Filter>motion_functions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Ramp.h">
+      <Filter>motion_functions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Recorder.h">
+      <Filter>motion_functions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Repeat.h">
+      <Filter>motion_functions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Sequence.h">
+      <Filter>motion_functions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Sigma.h">
+      <Filter>motion_functions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\motion_functions\ChFunction_Sine.h">
+      <Filter>motion_functions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\parallel\ChOpenMP.h">
+      <Filter>parallel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\parallel\ChThreads.h">
+      <Filter>parallel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\parallel\ChThreadsFunct.h">
+      <Filter>parallel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\parallel\ChThreadsPOSIX.h">
+      <Filter>parallel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\parallel\ChThreadsSync.h">
+      <Filter>parallel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Test\ChronoSrc\src\parallel\ChThreadsWIN32.h">
+      <Filter>parallel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\Test\ChronoSrc\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="collision\convexdecomp\JR">
+      <UniqueIdentifier>{3C13727A-F533-4B47-98B4-D1AEC6A45127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="collision\convexdecomp\HACD">
+      <UniqueIdentifier>{3A0B295B-5703-4DFC-9D87-5D4B2F898D98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="collision\convexdecomp\HACDv2">
+      <UniqueIdentifier>{E8526EC5-F0AC-444E-A9A9-5B8B7880C42B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="collision\edgetempest">
+      <UniqueIdentifier>{0A284781-4825-405E-8B2F-34C38A959F10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="collision\bullet">
+      <UniqueIdentifier>{5335695F-34B9-4CA8-A2CE-7E74A3EF18CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="collision\gimpact">
+      <UniqueIdentifier>{833A76D1-CA22-47B0-A3E3-DEE3B29C8A16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="collision\convexdecomp">
+      <UniqueIdentifier>{8B1D44E2-9496-4C8F-B297-4B22DEDAC59E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{BA7B5692-1D30-42FB-B7E2-A04950FBC35F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physics">
+      <UniqueIdentifier>{BB99BD26-FE76-4FFC-8351-8C1B93F56308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geometry">
+      <UniqueIdentifier>{030EF9E6-0E3B-4E41-AEF9-650F96705403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{ACA5EF1C-F47B-4E46-AEEA-A71E3E704215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="collision">
+      <UniqueIdentifier>{3892E686-66DE-4DD5-8A15-44DB9698F2A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="particlefactory">
+      <UniqueIdentifier>{9796034C-F89F-4A26-8B7C-D4F2468D0B85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="timestepper">
+      <UniqueIdentifier>{3CC431F6-D8AB-49CA-B5E6-644BE36F3D0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pneumatica">
+      <UniqueIdentifier>{FB722F0F-2663-447F-B006-EACA0DA7C825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="motion_functions">
+      <UniqueIdentifier>{1F6FCD3F-6EC6-45A6-A760-16EF9E28F4ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="parallel">
+      <UniqueIdentifier>{CC511FC5-D3A0-4D2C-BA0C-C09515AB4D17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lcp">
+      <UniqueIdentifier>{EB724570-7E14-4022-891C-CA76F1398F64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{F5E79A8D-7597-44A9-9BE0-01C65FF4A4C6}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projects\Test\ChronoSrc\src;c:\Projects\Test\ChronoSrc\bin;C:\Projects\Test\ChronoSrc\src\collision\bullet;C:\Projects\Test\ChronoSrc\src\collision\gimpact;C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projects\Test\ChronoSrc\src;c:\Projects\Test\ChronoSrc\bin;C:\Projects\Test\ChronoSrc\src\collision\bullet;C:\Projects\Test\ChronoSrc\src\collision\gimpact;C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projects\Test\ChronoSrc\src;c:\Projects\Test\ChronoSrc\bin;C:\Projects\Test\ChronoSrc\src\collision\bullet;C:\Projects\Test\ChronoSrc\src\collision\gimpact;C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projects\Test\ChronoSrc\src;c:\Projects\Test\ChronoSrc\bin;C:\Projects\Test\ChronoSrc\src\collision\bullet;C:\Projects\Test\ChronoSrc\src\collision\gimpact;C:\Projects\Test\ChronoSrc\src\collision\convexdecomposition\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="c:\Projects\Test\ChronoSrc\bin\CMakeFiles\5d0042b868a76cb2e11dc5ac9656abfa\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+F:\Development\CMake\bin\cmake.exe -HC:/Projects/Test/ChronoSrc/src -Bc:/Projects/Test/ChronoSrc/bin --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">c:/Projects/Test/ChronoSrc/bin/CMakeFiles/5d0042b868a76cb2e11dc5ac9656abfa/generate.stamp.rule;C:\Projects\Test\ChronoSrc\src\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\cmake\GetGitRevisionDescription.cmake;C:\Projects\Test\ChronoSrc\src\core\ChVersion.h.in;C:\Projects\Test\ChronoSrc\src\demos\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_CASCADE\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_COSIMULATION\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_FEA\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_IRRLICHT\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_MATLAB\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_POSTPROCESS\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_PYTHON\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_TESTING\CMakeLists.txt;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CPack.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CPackComponent.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckIncludeFiles.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckLibraryExists.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckSymbolExists.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindOpenMP.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindThreads.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;F:\Development\CMake\share\cmake-3.2\Templates\CPackConfig.cmake.in;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeCCompiler.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeCXXCompiler.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeRCCompiler.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">c:\Projects\Test\ChronoSrc\bin\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_MATLAB\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_CASCADE\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_IRRLICHT\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_POSTPROCESS\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_COSIMULATION\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_FEA\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_PYTHON\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\demos\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_TESTING\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+F:\Development\CMake\bin\cmake.exe -HC:/Projects/Test/ChronoSrc/src -Bc:/Projects/Test/ChronoSrc/bin --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">c:/Projects/Test/ChronoSrc/bin/CMakeFiles/5d0042b868a76cb2e11dc5ac9656abfa/generate.stamp.rule;C:\Projects\Test\ChronoSrc\src\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\cmake\GetGitRevisionDescription.cmake;C:\Projects\Test\ChronoSrc\src\core\ChVersion.h.in;C:\Projects\Test\ChronoSrc\src\demos\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_CASCADE\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_COSIMULATION\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_FEA\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_IRRLICHT\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_MATLAB\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_POSTPROCESS\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_PYTHON\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_TESTING\CMakeLists.txt;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CPack.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CPackComponent.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckIncludeFiles.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckLibraryExists.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckSymbolExists.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindOpenMP.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindThreads.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;F:\Development\CMake\share\cmake-3.2\Templates\CPackConfig.cmake.in;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeCCompiler.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeCXXCompiler.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeRCCompiler.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">c:\Projects\Test\ChronoSrc\bin\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_MATLAB\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_CASCADE\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_IRRLICHT\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_POSTPROCESS\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_COSIMULATION\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_FEA\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_PYTHON\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\demos\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_TESTING\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+F:\Development\CMake\bin\cmake.exe -HC:/Projects/Test/ChronoSrc/src -Bc:/Projects/Test/ChronoSrc/bin --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">c:/Projects/Test/ChronoSrc/bin/CMakeFiles/5d0042b868a76cb2e11dc5ac9656abfa/generate.stamp.rule;C:\Projects\Test\ChronoSrc\src\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\cmake\GetGitRevisionDescription.cmake;C:\Projects\Test\ChronoSrc\src\core\ChVersion.h.in;C:\Projects\Test\ChronoSrc\src\demos\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_CASCADE\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_COSIMULATION\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_FEA\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_IRRLICHT\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_MATLAB\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_POSTPROCESS\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_PYTHON\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_TESTING\CMakeLists.txt;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CPack.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CPackComponent.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckIncludeFiles.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckLibraryExists.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckSymbolExists.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindOpenMP.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindThreads.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;F:\Development\CMake\share\cmake-3.2\Templates\CPackConfig.cmake.in;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeCCompiler.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeCXXCompiler.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeRCCompiler.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">c:\Projects\Test\ChronoSrc\bin\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_MATLAB\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_CASCADE\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_IRRLICHT\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_POSTPROCESS\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_COSIMULATION\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_FEA\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_PYTHON\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\demos\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_TESTING\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+F:\Development\CMake\bin\cmake.exe -HC:/Projects/Test/ChronoSrc/src -Bc:/Projects/Test/ChronoSrc/bin --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">c:/Projects/Test/ChronoSrc/bin/CMakeFiles/5d0042b868a76cb2e11dc5ac9656abfa/generate.stamp.rule;C:\Projects\Test\ChronoSrc\src\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\cmake\GetGitRevisionDescription.cmake;C:\Projects\Test\ChronoSrc\src\core\ChVersion.h.in;C:\Projects\Test\ChronoSrc\src\demos\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_CASCADE\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_COSIMULATION\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_FEA\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_IRRLICHT\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_MATLAB\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_POSTPROCESS\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_PYTHON\CMakeLists.txt;C:\Projects\Test\ChronoSrc\src\unit_TESTING\CMakeLists.txt;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CPack.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CPackComponent.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckIncludeFiles.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckLibraryExists.cmake;F:\Development\CMake\share\cmake-3.2\Modules\CheckSymbolExists.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindOpenMP.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;F:\Development\CMake\share\cmake-3.2\Modules\FindThreads.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;F:\Development\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;F:\Development\CMake\share\cmake-3.2\Templates\CPackConfig.cmake.in;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeCCompiler.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeCXXCompiler.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeRCCompiler.cmake;c:\Projects\Test\ChronoSrc\bin\CMakeFiles\3.2.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">c:\Projects\Test\ChronoSrc\bin\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_MATLAB\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_CASCADE\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_IRRLICHT\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_POSTPROCESS\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_COSIMULATION\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_FEA\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_PYTHON\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\demos\CMakeFiles\generate.stamp;c:\Projects\Test\ChronoSrc\bin\unit_TESTING\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
